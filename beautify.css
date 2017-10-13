@@ -1,0 +1,96 @@
+header{
+    font-family: "Roboto Mono", monospace;
+}
+
+h1{
+    color: white;
+    width:100%;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links {
+    background-color: grey;
+    width: 70%;
+    height: 25px;
+    padding: 10px;
+    border: 5px solid white;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+
+}
+
+a:link{
+    
+    text-decoration: none;
+    padding:2%;
+    font-family: "Roboto Mono", monospace;
+}
+
+a:hover{
+    font-size: 125%;
+}
+
+li {
+    display:inline-block;
+    line-height: 5px;
+    border-radius: 5px;
+    padding: 12px;
+    margin:1px;
+    color:white;
+    background-color: steelblue;
+}
+
+figure img {
+    width: 40%;
+}
+
+footer{
+    color:white;
+    width:100%;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+body{
+     margin:auto;
+}
+
+main{
+    font-family: "Roboto Mono", monospace;
+    padding:5px;
+}
+
+a{
+    color: white;
+
+}
+
+section{
+    border-bottom: dotted midnightblue ;
+}
+
+
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    figure img{
+        width:100%;
+    }
+}
+
+label,input::after{
+    display: block;
+}
